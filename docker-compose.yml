@@ -1,0 +1,14 @@
+# version: "3.8"
+
+# services:
+#   web:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     volumes:
+#       - .:/backendApp
+#     ports:
+#       - "8000:8000"
+#     environment:
+#       - DEBUG=True
+#       - PYTHONUNBUFFERED=True
